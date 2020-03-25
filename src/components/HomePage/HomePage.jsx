@@ -14,7 +14,7 @@ const HomePage = (props) => {
                 Можно и походить, и посмотреть. И все это абсолютно за деньги!
             </p>
             <p className="lead">
-                <a className="btn btn-primary btn-lg" href="#" role="button">Задонатить на сигареты и пиво</a>
+                <a className="btn btn-primary btn-lg" href="#" role="button">Задонатить на пиво</a>
             </p>
         </div>
     );

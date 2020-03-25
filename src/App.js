@@ -1,6 +1,6 @@
 import React from 'react';
 import AppHeader from "./components/AppHeader";
-import {Route, HashRouter, BrowserRouter as Router} from "react-router-dom";
+import {Route, BrowserRouter, BrowserRouter as Router} from "react-router-dom";
 import HomePage from "./components/HomePage";
 import AppFooter from "./components/AppFooter";
 import './App.scss';
@@ -10,7 +10,7 @@ import GalleryPage from "./components/GalleryPage";
 const App = () => {
     return (
         <div className="App">
-            <HashRouter basename={process.env.PUBLIC_URL + '/'}>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <AppHeader />
                 <main role="main">
                     <Router>
@@ -20,7 +20,7 @@ const App = () => {
                     </Router>
                 </main>
                 <AppFooter />
-            </HashRouter>
+            </BrowserRouter>
         </div>
     );
 };

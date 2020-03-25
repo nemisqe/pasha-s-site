@@ -1,0 +1,12 @@
+html, body, #root, .App {
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0, 0.1)), url("images/cat-background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+  background: transparent;
+}

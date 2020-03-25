@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pasha-s-site/static/css/main.03c12bd2.chunk.css",
+    "main.js": "/pasha-s-site/static/js/main.16627031.chunk.js",
+    "main.js.map": "/pasha-s-site/static/js/main.16627031.chunk.js.map",
+    "runtime-main.js": "/pasha-s-site/static/js/runtime-main.5e02295c.js",
+    "runtime-main.js.map": "/pasha-s-site/static/js/runtime-main.5e02295c.js.map",
+    "static/js/2.6ba73f6a.chunk.js": "/pasha-s-site/static/js/2.6ba73f6a.chunk.js",
+    "static/js/2.6ba73f6a.chunk.js.map": "/pasha-s-site/static/js/2.6ba73f6a.chunk.js.map",
+    "index.html": "/pasha-s-site/index.html",
+    "precache-manifest.cc1cb540747063c16d4666259a51c12e.js": "/pasha-s-site/precache-manifest.cc1cb540747063c16d4666259a51c12e.js",
+    "service-worker.js": "/pasha-s-site/service-worker.js",
+    "static/css/main.03c12bd2.chunk.css.map": "/pasha-s-site/static/css/main.03c12bd2.chunk.css.map",
+    "static/js/2.6ba73f6a.chunk.js.LICENSE.txt": "/pasha-s-site/static/js/2.6ba73f6a.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/pasha-s-site/static/media/cat-background.6abe7585.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e02295c.js",
+    "static/js/2.6ba73f6a.chunk.js",
+    "static/css/main.03c12bd2.chunk.css",
+    "static/js/main.16627031.chunk.js"
+  ]
+}

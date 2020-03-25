@@ -3,7 +3,7 @@ import React from 'react';
 const AppHeader = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/pasha-s-site">Музей жмыховухи</a>
+            <a className="navbar-brand" href="/">Музей жмыховухи</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
@@ -11,13 +11,13 @@ const AppHeader = (props) => {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="/pasha-s-site">Главная</a>
+                        <a className="nav-link" href="/">Главная</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/pasha-s-site/about">О нас</a>
+                        <a className="nav-link" href="/about">О нас</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/pasha-s-site/gallery">Галерея</a>
+                        <a className="nav-link" href="/gallery">Галерея</a>
                     </li>
                 </ul>
             </div>

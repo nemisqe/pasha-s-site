@@ -10,13 +10,13 @@ import GalleryPage from "./components/GalleryPage";
 const App = () => {
     return (
         <div className="App">
-            <HashRouter basename="/pasha-s-site">
+            <HashRouter basename="/">
                 <AppHeader />
                 <main role="main">
                     <Router>
-                        <Route path="/pasha-s-site" exact component={HomePage}/>
-                        <Route path="/pasha-s-site/about" exact component={AboutPage} />
-                        <Route path="/pasha-s-site/gallery" exact component={GalleryPage} />
+                        <Route path="/" exact component={HomePage}/>
+                        <Route path="/about" exact component={AboutPage} />
+                        <Route path="/gallery" exact component={GalleryPage} />
                     </Router>
                 </main>
                 <AppFooter />
